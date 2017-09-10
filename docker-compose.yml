@@ -1,6 +1,6 @@
 version: '2'
 services:
-  java:
-    image: reflet/embulk
-    container_name: java
+  embulk:
+    image: reflet/docker-embulk
+    container_name: embulk
 
