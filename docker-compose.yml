@@ -3,4 +3,6 @@ services:
   embulk:
     image: reflet/docker-embulk
     container_name: embulk
+    volumes:
+      - ./opt:/root/opt
 
