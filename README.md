@@ -17,7 +17,7 @@
 ```
 $ docker pull reflet/embulk
 $ docker run -d --name embulk reflet/embulk
-$ docker run exec -it embulk bash
+$ docker exec -it embulk bash
 # embulk
 Embulk v0.8.32
 ...
